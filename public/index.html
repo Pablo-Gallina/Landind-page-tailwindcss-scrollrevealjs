@@ -6,9 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/main.css">
-    <title>Sito web con tailwind css</title>
+    <!-- CDN ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Landing Page</title>
 </head>
 <body>
-    
+    <nav class="headline font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 bg-white shadow sm:items-baseline w-full">
+        <div class="mb-2 sm:mb-0">
+          <a href="#" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark">Home</a>
+        </div>
+        <div>
+          <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">One</a>
+          <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Two</a>
+          <a href="#" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">Three</a>
+        </div>
+    </nav>
+
+    <div class="box w-1/2 h-96 bg-yellow-500 mx-auto my-1 rounded-lg"></div>
+    <div class="box w-1/2 h-96 bg-yellow-600 mx-auto my-1 rounded-lg"></div>
+    <div class="box w-1/2 h-96 bg-yellow-700 mx-auto my-1 rounded-lg"></div>
+    <div class="box w-1/2 h-96 bg-yellow-800 mx-auto my-1 rounded-lg"></div>
+      
+    <script src="./js/scrollReveal.js"></script>
 </body>
 </html>
