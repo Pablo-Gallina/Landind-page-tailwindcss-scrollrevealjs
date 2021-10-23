@@ -16,3 +16,12 @@ ScrollReveal().reveal('.box',{
     //viewFactor : 0,
     //afterReveal  : revealChildren,
 });
+
+ScrollReveal().reveal('.body-head-title',{
+    duration   : 600,
+    distance   : '20px',
+    easing     : 'ease-out',
+    origin     : 'bottom',
+    reset      : true,
+    scale      : 1,
+})
