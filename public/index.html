@@ -12,6 +12,7 @@
     <title>Landing Page</title>
 </head>
 <body>
+    <!-- NavBar -->
     <nav id="header" class="navbar w-full z-30 top-10 py-1 bg-white  px-12">
         <div class="w-full flex items-center justify-between mt-0 py-2">
            <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
@@ -41,29 +42,70 @@
         </div>
      </nav>
 
-
+    <!-- Body header -->
     <div class="body-head-title flex justify-between items-center px-11">
         <div class="w-1/2 py-12">
-            <h2 class="text-3xl text-gray-800 font-bold">Build Your New <span class="text-indigo-600">Idea</span></h2>
-            <p class="mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
+            <h2 class="text-3xl text-black font-medium">Build Your New <span class="text-purple-500">Idea</span></h2>
+            <p class="mt-4 text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
             <div class="mt-8">
-                <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+                <button class="bg-transparent text-gray-800  p-2 rounded-md border border-gray-800 mr-4 hover:bg-gray-100 hover:text-gray-700">Contact us</button>
+                <button class="bg-gray-800 text-gray-200  py-2 px-4 rounded-md  hover:bg-purple-700 hover:text-gray-100">Register</button>
             </div>
         </div>
         <div class="w-5/12 text-center">
             <img  class="bg-cover" src="./img/analytics-cuate.svg" style="margin-bottom: -30px;">
-            <a class="text-gray-400 font-light text-sm hover:text-purple-700" href="https://storyset.com/business">Business illustrations by Storyset</a>
+            <a class="text-gray-400 font-light text-sm hover:text-purple-700" target="blank" href="https://storyset.com/business">Business illustrations by Storyset</a>
         </div>
     </div>
 
+     <div class="body-head-content-1 mt-24">
+        <div class="lg:w-1/3 md:w-2/3 ml-16 rounded-md relative">
+            <div class="absolute -left-5 -top-10">
+                <div class="px-7 py-9 bg-white rounded shadow flex flex-col items-center w-min">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                    </svg>
+                    <label class="text-gray-700">Boost</label>
+                </div>
+            </div>
 
-     <div class="body-head">
-         
+            <div class="absolute -top-10 left-24">
+                <div class="p-3 bg-purple-500 bg-white rounded shadow w-min">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
+                        <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="absolute -bottom-9 -right-5">
+                <div class="px-3 py-4 bg-white rounded-lg shadow flex items-center w-max">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
+                        <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
+                      <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z" />
+                    </svg>
+                    <label class="text-purple-500 ml-3">New Sales</label>
+                </div>
+            </div>
+            
+            <div class="absolute -bottom-6 -left-5">
+                <div class="px-3 py-2 bg-white rounded-lg shadow flex items-center w-max bg-purple-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                        <path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    <label class="text-white ml-3">New Sales</label>
+                </div>
+            </div>
+            
+            <img class="object-cover" src="./img/laptop.jpg" alt="">
+        </div>
      </div>
-    <div class="box w-1/2 h-96 bg-yellow-500 mx-auto my-1 rounded-lg"></div>
+    <!-- <div class="box w-1/2 h-96 bg-yellow-500 mx-auto my-1 rounded-lg"></div>
     <div class="box w-1/2 h-96 bg-yellow-600 mx-auto my-1 rounded-lg"></div>
     <div class="box w-1/2 h-96 bg-yellow-700 mx-auto my-1 rounded-lg"></div>
-    <div class="box w-1/2 h-96 bg-yellow-800 mx-auto my-1 rounded-lg"></div>
+    <div class="box w-1/2 h-96 bg-yellow-800 mx-auto my-1 rounded-lg"></div> -->
     
     <script src="./js/scrollReveal.js"></script>
 </body>

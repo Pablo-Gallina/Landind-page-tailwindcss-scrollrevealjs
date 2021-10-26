@@ -19,7 +19,7 @@ ScrollReveal().reveal('.box',{
 
 ScrollReveal().reveal('.body-head-title',{
     duration   : 600,
-    distance   : '20px',
+    distance   : '120px',
     easing     : 'ease-out',
     origin     : 'bottom',
     reset      : true,
