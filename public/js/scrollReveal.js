@@ -45,3 +45,12 @@ ScrollReveal().reveal('.scroll-body-content',{
     reset      : true,
     scale      : 1,
 })
+
+ScrollReveal().reveal('.content',{
+    duration   : 300,
+    distance   : '20px',
+    easing     : 'ease-in',
+    origin     : 'top',
+    reset      : true,
+    scale      : 1,
+})
