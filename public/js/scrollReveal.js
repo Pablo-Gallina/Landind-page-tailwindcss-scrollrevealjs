@@ -37,11 +37,20 @@ ScrollReveal().reveal('.body-head-title',{
     scale      : 1,
 })
 
-ScrollReveal().reveal('.scroll-body-content',{
+ScrollReveal().reveal('.footer-descripcion',{
     duration   : 600,
-    distance   : '160px',
+    distance   : '140px',
     easing     : 'ease-out',
     origin     : 'bottom',
+    reset      : true,
+    scale      : 1,
+})
+
+ScrollReveal().reveal('.scroll-body-content',{
+    duration   : 600,
+    distance   : '120px',
+    easing     : 'ease-out',
+    origin     : 'top',
     reset      : true,
     scale      : 1,
 })
@@ -51,6 +60,15 @@ ScrollReveal().reveal('.content',{
     distance   : '20px',
     easing     : 'ease-in',
     origin     : 'top',
+    reset      : true,
+    scale      : 1,
+})
+
+ScrollReveal().reveal('.imagen',{
+    duration   : 600,
+    distance   : '140px',
+    easing     : 'ease-in',
+    origin     : 'right',
     reset      : true,
     scale      : 1,
 })
