@@ -3,7 +3,7 @@ ScrollReveal().reveal('.navbar',{
     distance   : '20px',
     easing     : 'ease-in',
     origin     : 'top',
-    reset      : true,
+    reset      : false,
     scale      : 1,
 });
 ScrollReveal().reveal('.box',{ 
@@ -11,7 +11,7 @@ ScrollReveal().reveal('.box',{
     distance   : '20px',
     easing     : 'ease-out',
     origin     : 'bottom',
-    reset      : true,
+    reset      : false,
     scale      : 1,
     //viewFactor : 0,
     //afterReveal  : revealChildren,
@@ -22,7 +22,7 @@ ScrollReveal().reveal('.box-text',{
     distance   : '20px',
     easing     : 'ease-out',
     origin     : 'top',
-    reset      : true,
+    reset      : false,
     scale      : 1,
     //viewFactor : 0,
     //afterReveal  : revealChildren,
@@ -33,7 +33,7 @@ ScrollReveal().reveal('.body-head-title',{
     distance   : '120px',
     easing     : 'ease-out',
     origin     : 'bottom',
-    reset      : true,
+    reset      : false,
     scale      : 1,
 })
 
@@ -42,7 +42,7 @@ ScrollReveal().reveal('.footer-descripcion',{
     distance   : '140px',
     easing     : 'ease-out',
     origin     : 'bottom',
-    reset      : true,
+    reset      : false,
     scale      : 1,
 })
 
@@ -51,7 +51,7 @@ ScrollReveal().reveal('.scroll-body-content',{
     distance   : '120px',
     easing     : 'ease-out',
     origin     : 'top',
-    reset      : true,
+    reset      : false,
     scale      : 1,
 })
 
@@ -60,7 +60,7 @@ ScrollReveal().reveal('.content',{
     distance   : '20px',
     easing     : 'ease-in',
     origin     : 'top',
-    reset      : true,
+    reset      : false,
     scale      : 1,
 })
 
@@ -69,6 +69,6 @@ ScrollReveal().reveal('.imagen',{
     distance   : '140px',
     easing     : 'ease-in',
     origin     : 'right',
-    reset      : true,
+    reset      : false,
     scale      : 1,
 })
